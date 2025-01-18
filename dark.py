@@ -7,7 +7,7 @@ import asyncio
 from datetime import datetime, timedelta
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 from threading import Thread
-from keep_alive import keep_alive
+from telebot import keep_alive
 from pymongo import MongoClient
 
 # Configuration
